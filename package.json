@@ -1,0 +1,48 @@
+{
+  "name": "@mjtdev/vad-2025",
+  "type": "module",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "version": "2025.12.27-942",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite --strictPort --force --port 7788",
+    "build": "EXCLUDE_PUBLIC=true vite build",
+    "build-release": "bun run build && scripts/version.sh"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.37.3",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "prettier": "^3.4.2",
+    "@vitejs/plugin-react": "^4.3.3",
+    "vite-plugin-dts": "^4.3.0",
+    "eslint": "^9.17.0"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "typescript": "^5.7.2",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.4",
+    "@mui/system": "^6.1.4",
+    "@ricky0123/vad-web": "^0.0.22",
+    "immer": "^10.1.1",
+    "vite": "^6.0.6",
+    "zustand": "^5.0.2",
+    "meyda": "^5.6.3"
+  }
+}
