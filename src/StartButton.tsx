@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { Stack } from "@mui/system";
 import { useState } from "react";
 import { useMicAudio } from "./audio/useMicAudio";
-import PhonemeLevelsDisplay from "./debug/viseme/PhonemeLevelsDisplay";
+import { PhonemeLevelsDisplay } from "./debug/viseme/PhonemeLevelsDisplay";
 
 export const StartButton = () => {
   const [active, setActive] = useState(true);

@@ -1,8 +1,6 @@
-import { Button, CssBaseline, ThemeProvider } from "@mui/material";
+import { CssBaseline, ThemeProvider } from "@mui/material";
 import { darkTheme } from "./darkTheme";
-import { getMicrophoneInput } from "./audio/getMicrophoneInput";
 import { StartButton } from "./StartButton";
-import PhonemeLevelsDisplay from "./debug/viseme/PhonemeLevelsDisplay";
 
 export const App = () => (
   <ThemeProvider theme={darkTheme}>
