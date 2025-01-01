@@ -1,2 +1,3 @@
+export * from "./StartButton";
 
-export * from "./StartButton"
+export * from "./Vads";
