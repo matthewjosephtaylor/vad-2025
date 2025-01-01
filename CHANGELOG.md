@@ -2,6 +2,7 @@
 
 
 ## 2025-01-01
+- Introduce Vads ([fae6b8d](https://github.com/matthewjosephtaylor/avatar-3d/commit/fae6b8d04167fc97db779887c0a57dcfa2db485a)) by Matt Taylor
 - version->publish script name to fix version number replace bug ([dbd464d](https://github.com/matthewjosephtaylor/avatar-3d/commit/dbd464d8058f09c475bd6c913b807f5c3de9fd5f)) by Matt Taylor
 - fix vite build issue ([90182d4](https://github.com/matthewjosephtaylor/avatar-3d/commit/90182d43196dcc656ca9d7224abd19051eb67d9b)) by Matt Taylor
 - update build scripts ([b602521](https://github.com/matthewjosephtaylor/avatar-3d/commit/b60252121f524c2b752fef7441de714dfcf76f68)) by Matt Taylor
