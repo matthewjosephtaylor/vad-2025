@@ -18,12 +18,12 @@ export default defineConfig({
     rollupOptions: {
       // Exclude dependencies you don't want bundled into your library
       external: ["react", "react-dom", "@mjtdev/engine"],
-      output: {
-        globals: {
-          react: "React",
-          "react-dom": "ReactDOM",
-        },
-      },
+      // output: {
+      //   globals: {
+      //     react: "React",
+      //     "react-dom": "ReactDOM",
+      //   },
+      // },
     },
   },
 });
