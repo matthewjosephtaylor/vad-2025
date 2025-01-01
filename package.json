@@ -26,7 +26,8 @@
     "prettier": "^3.4.2",
     "@vitejs/plugin-react": "^4.3.3",
     "vite-plugin-dts": "^4.3.0",
-    "eslint": "^9.17.0"
+    "eslint": "^9.17.0",
+    "ajv": "^8.17.1"
   },
   "peerDependencies": {
     "react": "^18.3.1",

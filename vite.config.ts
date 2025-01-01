@@ -1,11 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-// import dts from "vite-plugin-dts"; // Generates TypeScript declaration files
+import dts from "vite-plugin-dts"; // Generates TypeScript declaration files
 console.log("Vite config is being loaded");
 export default defineConfig({
   plugins: [
     react(),
-    // dts()
+    dts()
   ], // Include TypeScript declaration plugin
   // publicDir: process.env.EXCLUDE_PUBLIC === "true" ? false : "public",
   // build: {
