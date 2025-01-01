@@ -2,6 +2,8 @@
 
 
 ## 2025-01-01
+- fix typo in version script ([50e23e1](https://github.com/matthewjosephtaylor/avatar-3d/commit/50e23e1110acae37571016193fcafd62cd9f1d94)) by Matt Taylor
+- updated version script to add dist folder ([c05f30c](https://github.com/matthewjosephtaylor/avatar-3d/commit/c05f30ccc5de19275e1b2e5075519963f33c23a1)) by Matt Taylor
 - Introduce Vads ([fae6b8d](https://github.com/matthewjosephtaylor/avatar-3d/commit/fae6b8d04167fc97db779887c0a57dcfa2db485a)) by Matt Taylor
 - version->publish script name to fix version number replace bug ([dbd464d](https://github.com/matthewjosephtaylor/avatar-3d/commit/dbd464d8058f09c475bd6c913b807f5c3de9fd5f)) by Matt Taylor
 - fix vite build issue ([90182d4](https://github.com/matthewjosephtaylor/avatar-3d/commit/90182d43196dcc656ca9d7224abd19051eb67d9b)) by Matt Taylor
