@@ -2,6 +2,8 @@
 
 
 ## 2025-01-01
+- version->publish script name to fix version number replace bug ([dbd464d](https://github.com/matthewjosephtaylor/avatar-3d/commit/dbd464d8058f09c475bd6c913b807f5c3de9fd5f)) by Matt Taylor
+- fix vite build issue ([90182d4](https://github.com/matthewjosephtaylor/avatar-3d/commit/90182d43196dcc656ca9d7224abd19051eb67d9b)) by Matt Taylor
 - update build scripts ([b602521](https://github.com/matthewjosephtaylor/avatar-3d/commit/b60252121f524c2b752fef7441de714dfcf76f68)) by Matt Taylor
 - add execute perms on scripts ([b855c5c](https://github.com/matthewjosephtaylor/avatar-3d/commit/b855c5c68684d78b411c1391757a5b39b4e87766)) by Matt Taylor
 - sadly dist has to be under source control for git to be used as an npm repo ([a853bf8](https://github.com/matthewjosephtaylor/avatar-3d/commit/a853bf89b1e43f2ebe03ba41d701026dde73dc51)) by Matt Taylor
