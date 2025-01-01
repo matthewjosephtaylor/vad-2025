@@ -4,12 +4,12 @@
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
-  "version": "2025.12.27-942",
+  "version": "2025.1.1-0920",
   "license": "MIT",
   "scripts": {
     "start": "vite --strictPort --force --port 7788",
     "build": "EXCLUDE_PUBLIC=true vite build",
-    "version": "./scripts/changes.sh > CHANGELOG.md && ./scripts/version.sh",
+    "version": "2025.1.1-0920",
     "build-version": "bun run build && bun run version"
   },
   "devDependencies": {
