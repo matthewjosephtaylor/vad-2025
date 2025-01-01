@@ -7,23 +7,23 @@ export default defineConfig({
     react(),
     dts()
   ], // Include TypeScript declaration plugin
-  // publicDir: process.env.EXCLUDE_PUBLIC === "true" ? false : "public",
-  // build: {
-  //   lib: {
-  //     // Entry point for the library
-  //     entry: "./src/index.ts",
-  //     name: "vad-2025", // The global variable name for UMD builds
-  //     fileName: (format) => `index.${format}.js`, // Output filenames
-  //   },
-  //   rollupOptions: {
-  //     // Exclude dependencies you don't want bundled into your library
-  //     external: ["react", "react-dom", "@mjtdev/engine"],
-  //     output: {
-  //       globals: {
-  //         react: "React",
-  //         "react-dom": "ReactDOM",
-  //       },
-  //     },
-  //   },
-  // },
+  publicDir: process.env.EXCLUDE_PUBLIC === "true" ? false : "public",
+  build: {
+    lib: {
+      // Entry point for the library
+      entry: "./src/index.ts",
+      name: "vad-2025", // The global variable name for UMD builds
+      fileName: (format) => `index.${format}.js`, // Output filenames
+    },
+    rollupOptions: {
+      // Exclude dependencies you don't want bundled into your library
+      external: ["react", "react-dom", "@mjtdev/engine"],
+      output: {
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM",
+        },
+      },
+    },
+  },
 });
