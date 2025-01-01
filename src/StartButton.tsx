@@ -5,7 +5,7 @@ import { useMicAudio } from "./audio/useMicAudio";
 import PhonemeLevelsDisplay from "./debug/viseme/PhonemeLevelsDisplay";
 
 export const StartButton = () => {
-  const [active, setActive] = useState(false);
+  const [active, setActive] = useState(true);
   const analyserNode = useMicAudio(active);
   return (
     <Stack spacing={2}>
