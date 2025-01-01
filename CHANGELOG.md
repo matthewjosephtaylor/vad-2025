@@ -2,6 +2,7 @@
 
 
 ## 2025-01-01
+- WIP playing with rollup options to fix build ([06d093e](https://github.com/matthewjosephtaylor/avatar-3d/commit/06d093e9e402cfc7d883e98bf46974906bc6e76d)) by Matt Taylor
 - fix PhonemeLevelDisplay component export ([bcf30d9](https://github.com/matthewjosephtaylor/avatar-3d/commit/bcf30d941ab3adf8aef83d930828eb93093aefc8)) by Matt Taylor
 - export PhonemeLevelDisplay ([473ac2e](https://github.com/matthewjosephtaylor/avatar-3d/commit/473ac2e937f3641bec5bfc8528475f657fc650f7)) by Matt Taylor
 - fix typo in version script ([50e23e1](https://github.com/matthewjosephtaylor/avatar-3d/commit/50e23e1110acae37571016193fcafd62cd9f1d94)) by Matt Taylor
