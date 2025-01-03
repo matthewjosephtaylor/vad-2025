@@ -4,7 +4,11 @@
   "features": {
     "ghcr.io/shyim/devcontainers-features/bun:0": {},
     "ghcr.io/devcontainers-extra/features/curl-apt-get:1": {},
-    "ghcr.io/devcontainers-extra/features/wget-apt-get:1": {}
+    "ghcr.io/devcontainers-extra/features/wget-apt-get:1": {},
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts",
+      "pnpmVersion": "latest"
+    }
   },
   "customizations": {
     "vscode": {
