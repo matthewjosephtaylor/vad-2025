@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_URL="https://github.com/matthewjosephtaylor/avatar-3d"
+REPO_URL=$(git remote get-url origin)
 COMMIT_PATH="/commit"
 
 # Output the header for the changelog
