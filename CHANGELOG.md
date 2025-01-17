@@ -2,6 +2,7 @@
 
 
 ## 2025-01-17
+- fix version script to include dist ([f37775b](https://github.com/matthewjosephtaylor/vad-2025/commit/f37775b50906e124fb6ff9f10858456feb62bb7d)) by Matt Taylor
 - bump react to 19 ([44628fb](https://github.com/matthewjosephtaylor/vad-2025/commit/44628fb7144d3b490798a8bc33bd31bc0ba3aa9f)) by Matt Taylor
 - expose VAD callbacks ([3da76a3](https://github.com/matthewjosephtaylor/vad-2025/commit/3da76a3a47a25f7c6381b961a4ac15bb47f41910)) by Matt Taylor
 - fix pnpm bad default, use node_modules as expected ([a5f1849](https://github.com/matthewjosephtaylor/vad-2025/commit/a5f184914f81ab86cd0bcc0a1c12a5c1e2c25488)) by Matt Taylor
