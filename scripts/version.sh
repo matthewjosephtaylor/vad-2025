@@ -9,7 +9,7 @@ echo "Updating version to $VERSION"
 sed -i '' "s/\"version\": \".*\"/\"version\": \"$VERSION\"/" package.json
 
 # Commit the version change
-get add -A dist
+git add -A dist
 git add package.json
 git add CHANGELOG.md
 git commit -m "Update version to $VERSION"
