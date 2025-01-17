@@ -9,8 +9,7 @@
   "scripts": {
     "start": "vite --strictPort --force --port 7788",
     "build": "EXCLUDE_PUBLIC=true vite build",
-    "publish": "./scripts/changes.sh > CHANGELOG.md && ./scripts/version.sh",
-    "release": "bun run build && bun run publish"
+    "publish": "pnpm run build && ./scripts/changes.sh > CHANGELOG.md && ./scripts/version.sh"
   },
   "devDependencies": {
     "@types/bun": "latest",
